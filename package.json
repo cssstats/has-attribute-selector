@@ -1,32 +1,24 @@
 {
   "name": "has-attribute-selector",
   "description": "Check if a selector string has an attribute selector.",
-  "author": "John Otander",
+  "author": "John Otander <johnotander@gmail.com> (johnotander.com)",
   "version": "0.0.2",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "test": "mocha test",
-    "hint": "jshint . --exclude-path=node_modules"
+    "test": "ava"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cssstats/has-attribute-selector.git"
-  },
+  "repository": "cssstats/has-attribute-selector",
   "keywords": [
     "css",
     "attribute",
     "selector"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cssstats/has-attribute-selector/issues"
-  },
-  "homepage": "https://github.com/cssstats/has-attribute-selector",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "*"
+    "ava": "*"
   }
 }
