@@ -11,10 +11,10 @@ npm install --save has-attribute-selector
 ## Usage
 
 ```javascript
-var hasAttributeSelector = require('has-attribute-selector');
+var hasAttributeSelector = require('has-attribute-selector')
 
-hasAttributeSelector('[hidden]');  // => true
-hasAttributeSelector('.hidden');  // => false
+hasAttributeSelector('[hidden]')  // => true
+hasAttributeSelector('.hidden')  // => false
 ```
 
 ## License
